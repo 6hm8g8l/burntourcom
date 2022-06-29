@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="{ссылка}">
+  <meta property="og:title" content="название">
+  <meta property="og:description" content="текст">
+  <meta property="og:image" content="{картинка}">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <title>Error404</title>
+  <link href="./stylesheets/style.css" rel="stylesheet" type="text/css"/>
+  <link href="./stylesheets/fonts.css" rel="stylesheet" type="text/css"/>
+  <script src="javascripts/jquery-3.6.0.js" charset="utf-8"></script>
+  <script type="module" src="javascripts/java-script.js" charset="utf-8"></script>
+</head>
+<body id="be">
+  <script type="text/javascript">
+  $(document).ready(function () {
+    $('#be').on('mousemove', function() {
+      var randName = GetNumber(0, 255)
+      let list = ["#C52727", "#FFFFFF", "#000000"];
+      $('#be').prepend("<p class='circle " + randName + " '>" + "error404" + "</p>")
+      $("." + randName).css("position", "absolute");
+      $("." + randName).css("color", list[GetNumber(0, 2)]);
+      $("." + randName).css("font-size", GetNumber(50, 500) + "%");
+      $("." + randName).css("top", GetNumber(0, 100) + "%");
+      $("." + randName).css("left", GetNumber(0, 100) + "%");
+    });
+
+    function GetNumber(min, max) {
+      return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+  });
+  </script>
+</body>
+</html>

@@ -1,0 +1,1216 @@
+body{
+  background: black;
+  font-family: "VKHUTETYPE";
+  overflow: hidden;
+}
+.b{
+  opacity: 1;
+  transition: opacity 1.5s;
+}
+.b2{
+  opacity: 0;
+}
+.rect01{
+  display: none;
+}
+.triangle1{
+  width: 100%;
+}
+.triangle{
+  width: 10%;
+  position: absolute;
+  left: 30%;
+  top: 25%;
+  animation: triangle 1000ms infinite ;
+}
+@keyframes triangle {
+  0% {
+    opacity: 100%;
+  }
+
+  50% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+.text1{
+  position: absolute;
+  width: 100%;
+  font-family: "Formular";
+  font-size: 2vw;
+  left: 30%;
+  top: 42%;
+  color: white;
+}
+.text2{
+  position: absolute;
+  width: 100%;
+  font-family: "Formular";
+  font-size: 1.5vw;
+  left: 30%;
+  top: 48%;
+  color: white;
+}
+.text3{
+  position: absolute;
+  width: 100%;
+  font-family: "Formular";
+  font-size: 4vw;
+  left: 30%;
+  top: 65%;
+  color: #C52727;
+  cursor: pointer;
+}
+#b1{
+  overflow: hidden;
+  animation: opac1 3000ms linear ;
+  animation-play-state: running;
+}
+@keyframes opac1 {
+  0% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+.vid1{
+  width: 110%;
+  position: absolute;
+  top: -37%;
+  left: -5%;
+}
+.btop{
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  height: 10%;
+}
+.bbottom{
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  height: 10%;
+  top: 90%;
+}
+.logo1{
+  width: 100%;
+  cursor: pointer;
+}
+.logo{
+  width: 20%;
+  position: absolute;
+  left: 1%;
+  top: 1%;
+  cursor: pointer;
+  z-index: 6;
+}
+.sob{
+  position: absolute;
+  width: 100%;
+  font-size: 2.5vw;
+  text-align: right;
+  color: #C52727;
+  right: 1%;
+  top: 3.5%;
+  z-index: 5;
+}
+.about{
+  position: absolute;
+  width: 100%;
+  font-size: 2.5vw;
+  text-align: right;
+  color: #C52727;
+  right: 5%;
+  top: 10.5%;
+  z-index: 5;
+}
+.mag{
+  position: absolute;
+  width: 100%;
+  font-size: 2.5vw;
+  text-align: right;
+  color: #C52727;
+  right: 1%;
+  top: 17.5%;
+  z-index: 5;
+}
+.sob2{
+  color: white;
+  cursor: pointer;
+}
+.about2{
+  color: white;
+  cursor: pointer;
+}
+.mag2{
+  color: white;
+  cursor: pointer;
+}
+.sob1{
+  cursor: pointer;
+}
+.about1{
+  cursor: pointer;
+}
+.mag1{
+  cursor: pointer;
+}
+.block{
+  background-color: #C52727;
+  width: 0.5%;
+  height: 14%;
+  left: 86.6%;
+  top: 17.5%;
+  position: absolute;
+  display: none;
+  z-index: 5;
+}
+.blocktwo{
+  background-color: white;
+  width: 0.5%;
+  height: 14%;
+  left: 86.6%;
+  top: 17.5%;
+  position: absolute;
+  display: none;
+  z-index: 5;
+}
+.concept{
+  position: absolute;
+  width: 100%;
+  font-size: 1.8vw;
+  text-align: right;
+  color: #C52727;
+  right: 1%;
+  top: 17.5%;
+  display: none;
+  z-index: 5;
+}
+.map{
+  position: absolute;
+  width: 100%;
+  font-size: 1.8vw;
+  text-align: right;
+  color: #C52727;
+  right: 5.7%;
+  top: 23.4%;
+  display: none;
+  z-index: 5;
+}
+.floors{
+  position: absolute;
+  width: 100%;
+  font-size: 1.8vw;
+  text-align: right;
+  color: #C52727;
+  right: 5.5%;
+  top: 29%;
+  display: none;
+  z-index: 5;
+}
+.concept1{
+  cursor: pointer;
+}
+.map1{
+  cursor: pointer;
+}
+.floors1{
+  cursor: pointer;
+}
+.concept2{
+  color: white;
+  cursor: pointer;
+}
+.map2{
+  color: white;
+  cursor: pointer;
+}
+.floors2{
+  color: white;
+  cursor: pointer;
+}
+.pic11{
+  width: 100%;
+}
+.pic22{
+  width: 100%;
+}
+.pic33{
+  width: 100%;
+}
+.pic44{
+  width: 100%;
+}
+.pic1{
+  width: 20%;
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  cursor: move;
+}
+.pic2{
+  width: 20%;
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  cursor: move;
+}
+.pic3{
+  width: 20%;
+  position: absolute;
+  left: 30%;
+  top: 45%;
+  cursor: move;
+}
+.pic4{
+  width: 20%;
+  position: absolute;
+  left: 20%;
+  top: 60%;
+  cursor: move;
+}
+.pic5{
+  width: 20%;
+  position: absolute;
+  left: 70%;
+  top: 10%;
+  cursor: move;
+}
+.pic6{
+  width: 20%;
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  cursor: move;
+}
+.pic7{
+  width: 20%;
+  position: absolute;
+  left: 80%;
+  top: 30%;
+  cursor: move;
+}
+.pic8{
+  width: 20%;
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  cursor: move;
+}
+.description{
+  position: absolute;
+  width: 100%;
+  font-size: 1.8vw;
+  color: white;
+  left: 1%;
+  top: 17.5%;
+  pointer-events: none;
+}
+.descript{
+  position: absolute;
+  width: 100%;
+  font-size: 1.8vw;
+  color: white;
+  left: 1%;
+  top: 17.5%;
+  pointer-events: none;
+}
+.block1{
+  background-color: #C52727;
+  width: 0.5%;
+  height: 70%;
+  left: 1%;
+  top: 28%;
+  position: absolute;
+  cursor: pointer;
+}
+.block11{
+  width: 2%;
+  height: 70%;
+  left: 1%;
+  top: 28%;
+  position: absolute;
+  cursor: pointer;
+}
+.block2{
+  background-color: #C52727;
+  width: 0.5%;
+  height: 70%;
+  left: 98.5%;
+  top: 28%;
+  position: absolute;
+  cursor: pointer;
+}
+.block22{
+  width: 2%;
+  height: 70%;
+  left: 98.5%;
+  top: 28%;
+  position: absolute;
+  cursor: pointer;
+}
+.block3{
+  background-color: #C52727;
+  width: 0.5%;
+  height: 70%;
+  left: 49.5%;
+  top: 28%;
+  position: absolute;
+  cursor: pointer;
+}
+.block33{
+  width: 2%;
+  height: 70%;
+  left: 49.5%;
+  top: 28%;
+  position: absolute;
+  cursor: pointer;
+}
+.block4{
+  background-color: #C52727;
+  width: 0.5%;
+  height: 70%;
+  left: 74.5%;
+  top: 28%;
+  position: absolute;
+  cursor: pointer;
+}
+.block44{
+  width: 2%;
+  height: 70%;
+  left: 74.5%;
+  top: 28%;
+  position: absolute;
+  cursor: pointer;
+}
+.block5{
+  background-color: #C52727;
+  width: 0.5%;
+  height: 70%;
+  left: 24.5%;
+  top: 28%;
+  position: absolute;
+  cursor: pointer;
+}
+.block55{
+  width: 2%;
+  height: 70%;
+  left: 24.5%;
+  top: 28%;
+  position: absolute;
+  cursor: pointer;
+}
+.block6{
+  background-color: #C52727;
+  width: 0.5%;
+  height: 70%;
+  left: 12%;
+  top: 28%;
+  position: absolute;
+  cursor: pointer;
+}
+.block66{
+  width: 2%;
+  height: 70%;
+  left: 12%;
+  top: 28%;
+  position: absolute;
+  cursor: pointer;
+}
+.block7{
+  background-color: #C52727;
+  width: 0.5%;
+  height: 70%;
+  left: 37%;
+  top: 28%;
+  position: absolute;
+  cursor: pointer;
+}
+.block77{
+  width: 2%;
+  height: 70%;
+  left: 37%;
+  top: 28%;
+  position: absolute;
+  cursor: pointer;
+}
+.block8{
+  background-color: #C52727;
+  width: 0.5%;
+  height: 70%;
+  left: 62%;
+  top: 28%;
+  position: absolute;
+  cursor: pointer;
+}
+.block88{
+  width: 2%;
+  height: 70%;
+  left: 62%;
+  top: 28%;
+  position: absolute;
+  cursor: pointer;
+}
+.block9{
+  background-color: #C52727;
+  width: 0.5%;
+  height: 70%;
+  left: 87%;
+  top: 28%;
+  position: absolute;
+  cursor: pointer;
+}
+.block99{
+  width: 2%;
+  height: 70%;
+  left: 87%;
+  top: 28%;
+  position: absolute;
+  cursor: pointer;
+}
+.p1{
+  height: 105%;
+  position: absolute;
+}
+
+.p11{
+  height: 71%;
+  position: absolute;
+  top: 25%;
+  left: -50%;
+  transition: left 0.5s linear;
+}
+.p12{
+  height: 71%;
+  position: absolute;
+  top: 25%;
+  left: -1%;
+}
+
+.p111{
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 1.5%;
+}
+.p2{
+  height: 105%;
+  position: absolute;
+}
+
+.p22{
+  height: 71%;
+  position: absolute;
+  top: 25%;
+  left: -50%;
+  transition: left 0.5s linear;
+}
+.p23{
+  height: 71%;
+  position: absolute;
+  top: 25%;
+  left: -1%;
+}
+.p222{
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+}
+.p3{
+  height: 105%;
+  position: absolute;
+}
+.p33{
+  height: 71%;
+  position: absolute;
+  top: 25%;
+  left: 100%;
+  transition: left 0.25s linear;
+}
+.p34{
+  height: 71%;
+  position: absolute;
+  top: 25%;
+  left: 73.5%;
+}
+.p333{
+  text-align: right;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: -1.5%;
+}
+.p4{
+  height: 105%;
+  position: absolute;
+}
+.p44{
+  height: 69.5%;
+  position: absolute;
+  top: 26%;
+  left: 100%;
+  transition: left 0.25s linear;
+}
+.p45{
+  height: 69.5%;
+  position: absolute;
+  top: 26%;
+  left: 74%;
+}
+.p444{
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: -25.5%;
+}
+.p5{
+  height: 105%;
+  position: absolute;
+}
+.p55{
+  height: 69.5%;
+  position: absolute;
+  top: 26%;
+  left: -50%;
+  transition: left 0.5s linear;
+}
+.p56{
+  height: 69.5%;
+  position: absolute;
+  top: 26%;
+  left: -0.5%;
+}
+
+.p555{
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 25%;
+}
+.p6{
+  height: 105%;
+  position: absolute;
+}
+.p66{
+  height: 69.5%;
+  position: absolute;
+  top: 26%;
+  left: -50%;
+  transition: left 0.5s linear;
+}
+.p67{
+  height: 69.5%;
+  position: absolute;
+  top: 26%;
+  left: -0.5%;
+}
+.p666{
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 12.5%;
+}
+.p7{
+  height: 106%;
+  position: absolute;
+}
+
+.p77{
+  height: 70.5%;
+  position: absolute;
+  top: 24%;
+  left: -50%;
+  transition: left 0.5s linear;
+}
+.p78{
+  height: 70.5%;
+  position: absolute;
+  top: 24%;
+  left: -1%;
+}
+.p777{
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 37.5%;
+}
+.p8{
+  height: 105%;
+  position: absolute;
+}
+.p88{
+  height: 70.5%;
+  position: absolute;
+  top: 25.2%;
+  left: 100%;
+  transition: left 0.25s linear;
+}
+.p89{
+  height: 70.5%;
+  position: absolute;
+  top: 25.2%;
+  left: 74%;
+}
+.p888{
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: -38%;
+}
+.p9{
+  height: 105%;
+  position: absolute;
+}
+.p99{
+  height: 70.5%;
+  position: absolute;
+  top: 25.2%;
+  left: 100%;
+  transition: left 0.25s linear;
+}
+.p90{
+  height: 70.5%;
+  position: absolute;
+  top: 25.2%;
+  left: 74%;
+}
+.p999{
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin-left: -13%;
+}
+.descript1{
+  position: absolute;
+  width: 100%;
+  font-size: 1.8vw;
+  color: white;
+  left: 1%;
+  top: 17.5%;
+  pointer-events: none;
+  display: none;
+}
+.descript2{
+  position: absolute;
+  width: 100%;
+  font-size: 1.8vw;
+  color: white;
+  left: 1%;
+  top: 17.5%;
+  pointer-events: none;
+  display: none;
+}
+.descript3{
+  position: absolute;
+  width: 100%;
+  font-size: 1.8vw;
+  color: white;
+  left: 1%;
+  top: 17.5%;
+  pointer-events: none;
+  display: none;
+}
+.descript4{
+  position: absolute;
+  width: 100%;
+  font-size: 1.8vw;
+  color: white;
+  left: 1%;
+  top: 17.5%;
+  pointer-events: none;
+  display: none;
+}
+.descript5{
+  position: absolute;
+  width: 100%;
+  font-size: 1.8vw;
+  color: white;
+  left: 1%;
+  top: 17.5%;
+  pointer-events: none;
+  display: none;
+}
+.descript6{
+  position: absolute;
+  width: 100%;
+  font-size: 1.8vw;
+  color: white;
+  left: 1%;
+  top: 17.5%;
+  pointer-events: none;
+  display: none;
+}
+.descript7{
+  position: absolute;
+  width: 100%;
+  font-size: 1.8vw;
+  color: white;
+  left: 1%;
+  top: 17.5%;
+  pointer-events: none;
+  display: none;
+}
+.descript8{
+  position: absolute;
+  width: 100%;
+  font-size: 1.8vw;
+  color: white;
+  left: 1%;
+  top: 17.5%;
+  pointer-events: none;
+  display: none;
+}
+.descript9{
+  position: absolute;
+  width: 100%;
+  font-size: 1.8vw;
+  color: white;
+  left: 1%;
+  top: 17.5%;
+  pointer-events: none;
+  display: none;
+}
+#b4{
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.test{
+  position: absolute;
+  width: 10%;
+  height: 150%;
+  background-color: pink;
+}
+.sobb{
+  display: none;
+}
+.aboutt{
+  display: none;
+}
+.magg{
+  display: none;
+}
+.cart{
+  position: fixed;
+  width: 5%;
+  text-align: right;
+  right: 1%;
+  top: 90%;
+  cursor: pointer;
+}
+.cart1{
+  width: 100%;
+}
+.cartt{
+  display: none;
+  position: fixed;
+  width: 5%;
+  text-align: right;
+  right: 1%;
+  top: 90%;
+}
+.cartt1{
+  width: 100%;
+}
+.rect1{
+  position: absolute;
+  width: 25%;
+  height: 40%;
+  left: 74%;
+  top: 26%;
+}
+.rect11{
+  position: absolute;
+  width: 100%;
+  display: block;
+  pointer-events: none;
+}
+.rect22{
+  position: absolute;
+  width: 100%;
+  pointer-events: none;
+}
+.rect33{
+  position: absolute;
+  width: 100%;
+  pointer-events: none;
+}
+.rect44{
+  position: absolute;
+  width: 100%;
+  pointer-events: none;
+}
+.rect55{
+  position: absolute;
+  width: 100%;
+  pointer-events: none;
+}
+.rect66{
+  position: absolute;
+  width: 100%;
+  pointer-events: none;
+}
+.rect77{
+  position: absolute;
+  width: 100%;
+  pointer-events: none;
+}
+.rect777{
+  display: none;
+  position: absolute;
+  width: 100%;
+  pointer-events: none;
+}
+.rect88{
+  position: absolute;
+  width: 100%;
+  pointer-events: none;
+}
+.rect99{
+  position: absolute;
+  width: 100%;
+  pointer-events: none;
+}
+.rect2{
+  position: absolute;
+  width: 25%;
+  height: 40%;
+  left: 74%;
+  top: 90%;
+}
+.rect3{
+  position: absolute;
+  width: 25%;
+  height: 40%;
+  top: 26%;
+  left: 1%;
+}
+.rect4{
+  position: absolute;
+  width: 25%;
+  height: 40%;
+  top: 90%;
+  left: 1%;
+}
+.rect5{
+  position: absolute;
+  width: 25%;
+  height: 40%;
+  top: 26%;
+  left: 38%;
+}
+.rect6{
+  position: absolute;
+  width: 25%;
+  height: 40%;
+  top: 90%;
+  left: 38%;
+}
+.rect7{
+  position: absolute;
+  width: 25%;
+  height: 40%;
+  top: 154%;
+  left: 1%;
+}
+.rect8{
+  position: absolute;
+  width: 25%;
+  height: 40%;
+  top: 154%;
+  left: 38%;
+}
+.rect9{
+  position: absolute;
+  width: 25%;
+  height: 40%;
+  top: 154%;
+  left: 74%;
+}
+.item1{
+  position: absolute;
+  width: 160%;
+  left: -30%;
+  margin-top: -6%;
+  pointer-events: none;
+}
+.item2{
+  position: absolute;
+  width: 160%;
+  left: -30%;
+  margin-top: -6%;
+  pointer-events: none;
+}
+.item3{
+  position: absolute;
+  width: 160%;
+  left: -30%;
+  margin-top: -6%;
+  pointer-events: none;
+}
+.item4{
+  position: absolute;
+  width: 50%;
+  left: 20%;
+  margin-top: 10%;
+  pointer-events: none;
+}
+
+.item5{
+  position: absolute;
+  width: 120%;
+  left: -10%;
+  margin-top: 3%;
+  pointer-events: none;
+}
+.item6{
+  position: absolute;
+  width: 120%;
+  left: -13%;
+  margin-top: 6%;
+  transform: rotate(-45deg);
+  pointer-events: none;
+}
+.item7{
+  position: absolute;
+  width: 50%;
+  left: 20%;
+  margin-top: 10%;
+  pointer-events: none;
+}
+.item8{
+  position: absolute;
+  width: 100%;
+  pointer-events: none;
+}
+.item9{
+  position: absolute;
+  width: 90%;
+  left: 5%;
+  margin-top: 30%;
+  pointer-events: none;
+}
+.shtext{
+  position: absolute;
+  font-size: 2.5vw;
+  color: #C52727;
+  line-height: 1.8vw;
+  margin-top: 40%;
+  cursor: pointer;
+}
+.shprice{
+  font-size: 1.8vw;
+}
+.back{
+  position: absolute;
+  width: 100%;
+  font-size: 2.5vw;
+  text-align: right;
+  color: #C52727;
+  right: 1%;
+  top: 3.5%;
+}
+.back1{
+  cursor: pointer;
+}
+.tut{
+  position: absolute;
+  font-size: 7vw;
+  color: #C52727;
+  line-height: 3vw;
+  top: 33%;
+  left:41%;
+}
+.tutprice{
+  font-size: 2.5vw;
+  line-height: 0vw;
+}
+.rect00{
+  position: absolute;
+  width: 38%;
+  height: 40%;
+  top: 30%;
+  left: 1%;
+}
+#error1{
+  display: block;
+  position: absolute;
+  font-size: 17vw;
+  color: #C52727;
+  top: 10%;
+  left: 0%;
+}
+#be{
+  width: 100vw;
+  height: 100vh;
+}
+.ms{
+  width: 100%;
+}
+.msg{
+  width: 160%;
+  display: none;
+  margin-left: -40%
+}
+.lights{
+  width: 100%;
+}
+.lightsg{
+  width: 118%;
+  display: none;
+  margin-left: 0%
+}
+.sharp{
+  width: 100%;
+}
+.sharpg{
+  width: 177%;
+  display: none;
+  margin-left: -41%
+}
+.hammer{
+  width: 100%;
+}
+.hammerg{
+  width: 132%;
+  display: none;
+  margin-left: -21%
+}
+.river{
+  width: 100%;
+}
+.riverg{
+  width: 153%;
+  display: none;
+  margin-left: -28%
+}
+.mirror{
+  width: 100%;
+}
+.mirrorg{
+  width: 146%;
+  display: none;
+  margin-left: -20%
+}
+.tvs{
+  width: 100%;
+  display: none;
+}
+.tvsg{
+  width: 100%;
+  display: block;
+  margin-left: 0%
+}
+.wrapper {
+  top: 30%;
+  position: absolute;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 49.5% 49.5%;
+}
+.box7{
+  overflow: hidden;
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.box1{
+  overflow: hidden;
+}
+.box2{
+  overflow: hidden;
+}
+.box3{
+  overflow: hidden;
+}
+.box4{
+  overflow: hidden;
+}
+.box5{
+  overflow: hidden;
+}
+.box6{
+  overflow: hidden;
+}
+.floorp1, .floorp2, .floorp3, .floorp4, .floorp5, .floorp6{
+  position: absolute;
+  width: 100%;
+  font-size: 1.8vw;
+  color: white;
+  left: 1%;
+  top: 17.5%;
+  pointer-events: none;
+  display: none;
+}
+.floorp7{
+  position: absolute;
+  width: 100%;
+  font-size: 1.8vw;
+  color: white;
+  left: 1%;
+  top: 17.5%;
+  pointer-events: none;
+  display: block;
+}
+.tryblockk{
+  display: none;
+}
+.tryblock1{
+  display: none;
+}
+.buy{
+  position: absolute;
+  font-size: 2.5vw;
+  color: #000000;
+  left: 42%;
+  top: 58%;
+  cursor: pointer;
+}
+.try{
+  position: absolute;
+  font-size: 2.5vw;
+  color: #000000;
+  left: 42%;
+  top: 58%;
+  cursor: pointer;
+}
+.cartshm{
+  display: none;
+  opacity: 0;
+}
+.carttshm{
+  display: none;
+  opacity: 0;
+}
+.cartshm2{
+  display: none;
+  opacity: 0;
+}
+.carttshm2{
+  display: none;
+  opacity: 0;
+}
+.cartt2{
+  display: none;
+}
+.cart2{
+  display: none;
+}
+.text22{
+  display: none;
+}

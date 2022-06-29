@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "VKHUTETYPE";
+  src: url("../VKHUTETYPE.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Formular";
+  src: url("../Formular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Formular-Bold";
+  src: url("../Formular-Bold.ttf") format("truetype");
+  font-style: Bold;
+  font-weight: bold;
+}
