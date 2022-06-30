@@ -7,6 +7,7 @@ $(document).ready(function () {
       document.location.href = "./index1.html";
     }, 1600);
     $(".b").toggleClass("b2");
+    $(".ft").css("display", "block");
   });
   $(".sob1").hover(
     function () {
